@@ -1,0 +1,7 @@
+{
+    "bot":"BOT TOKEN",
+    "db_user":"taro",
+    "password":"password",
+    "host":"localhost",
+    "db_name":"taro_dsc"
+}
