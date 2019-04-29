@@ -13,7 +13,7 @@ token = df['bot']
 bot = commands.Bot(command_prefix='&')
 
 @bot.command()
-async def get_prefix(ctx, arg1='emp'):
+async def prefix(ctx, arg1='emp'):
     if arg1 == 'emp':
         await ctx.channel.send('引数が足りんやでー。')
     elif arg1.isdecimal():
