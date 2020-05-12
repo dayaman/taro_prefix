@@ -18,7 +18,7 @@ async def prefix(ctx, arg1='emp'):
         await ctx.channel.send('引数が足りんやでー。')
     elif arg1.isdecimal():
         # prefixを探して返す
-        guild = ctrldb.get_guild(arg1)
+        guild = ctrldb.get_prefix(arg1, '518899666637553667')
         if guild is not None:
             await ctx.channel.send('{}のprefixは「{}」やで。'.format(guild.name, guild.prefix))
         else:
